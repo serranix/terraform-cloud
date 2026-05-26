@@ -5,6 +5,7 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "~> 3.107"
+      resource_provider_registrations = "none"
     }
   }
 }
